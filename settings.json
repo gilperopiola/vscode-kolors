@@ -1,0 +1,130 @@
+{
+    // ... Other settings
+
+    "editor.tokenColorCustomizations": {
+        "comments": {
+            "foreground": "#796085ee",
+            "fontStyle": "italic"
+        },
+        "types": {
+            "foreground": "#60cf8bf5"
+        },
+        "variables": {
+            "foreground": "#e5e59d"
+        },
+        "functions": {
+            "foreground": "#e08941ef"
+        },
+        "strings": {
+            "foreground": "#f4cbaa75"
+        },
+        "textMateRules": [
+            {
+                "scope": "keyword.control",
+                "settings": {
+                    "foreground": "#dc5d5d"
+                }
+            },
+            {
+                "scope": ["source.go storage.type.string.go"],
+                "settings": {
+                    "foreground": "#60cf8bf5"
+                }
+            },
+            {
+                "scope": ["source.go storage.type.boolean.go"],
+                "settings": {
+                    "foreground": "#60cf8bf5"
+                }
+            },
+            {
+                "scope": ["source.go storage.type.integer.go"],
+                "settings": {
+                    "foreground": "#60cf8bf5"
+                }
+            },
+            {
+                "scope": ["source.go storage.type.byte.go"],
+                "settings": {
+                    "foreground": "#60cf8bf5"
+                }
+            },
+            {
+                "scope": ["entity.name.function.go"],
+                "settings": {
+                    "fontStyle": "italic bold",
+                    "foreground": "#dbc546"
+                }
+            },
+            {
+                "scope": ["variable.parameter"],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": ["keyword.operator"],
+                "settings": {
+                    "fontStyle": "",
+                    "foreground": "#ffffff"
+                }
+            },
+            {
+                "scope": ["variable.other.property"],
+                "settings": {
+                    "fontStyle": "italic underline",
+                    "foreground": "#ffffffc8"
+                }
+            },
+            {
+                "scope": "source.go keyword.function.go",
+                "settings": {
+                    "fontStyle": "italic bold",
+                    "foreground": "#b34b26"
+                }
+            },
+            {
+                "scope": "source.go keyword.map.go",
+                "settings": {
+                    "foreground": "#60cf8bf5"
+                }
+            },
+            {
+                "scope": "keyword.interface.go",
+                "settings": {
+                    "foreground": "#60cf8bf5"
+                }
+            },
+            {
+                "scope": "source.go keyword.struct.go",
+                "settings": {
+                    "foreground": "#dc5d5d"
+                }
+            },
+            {
+                "scope": "keyword.package.go",
+                "settings": {
+                    "foreground": "#dc5d5d"
+                }
+            },
+            {
+                "scope": "source.go keyword.const.go",
+                "settings": {
+                    "foreground": "#dc5d5d"
+                }
+            },
+            {
+                "scope": "source.go keyword.var.go",
+                "settings": {
+                    "foreground": "#dc5d5d"
+                }
+            },
+            {
+                "scope": "source.go keyword.type.go",
+                "settings": {
+                    "foreground": "#dc5d5d"
+                }
+            }
+        ]
+    }
+}
